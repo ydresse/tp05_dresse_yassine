@@ -1,0 +1,23 @@
+<div class="container has-text-centered">
+	<h1 class="title">Liste des produits</h1>
+	<div class="columns is-multiline">
+		<div class="column is-4" *ngFor="let product of productFilters | async">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title"> {{ product.name }} </p>
+				</header>
+				<div class="card-content">
+					{{product.description}}
+				</div>
+				<footer class="card-footer">
+					<p class="card-footer-item">
+						<span class="tag is-info">{{product.category}}</span>
+					</p>
+					<p class="card-footer-item">
+						<span class="tag is-primary">{{product.price}}€</span>
+					</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+</div>

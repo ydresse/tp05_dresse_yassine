@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Apex Legends",
+    "image": "apex.png",
+    "category": "FPS",
+    "description": "Apex Legends est le nouveau Battle Royale qui déchaîne les foules (non, ce n'est pas Tetris 99, même si on l'aime d'amour). Sortie sans prévenir le 5 février 2019, la nouvelle production d'Electronic Arts a même réussi à faire de l'ombre au roi Fortnite avec une audience impressionnante sur Twitch",
+    "price": 45
+  },
+    {
+    "name": "Call of Duty Modern Warfare",
+    "image": "cod.png",
+    "category": "FPS",
+    "description": "Call of Duty: Modern Warfare est un jeu vidéo de tir à la première personne développé par Infinity Ward et édité par Activision. Il est sorti le 25 octobre 2019 sur PC, PlayStation 4 et Xbox One",
+    "price": 70
+  },
+    {
+    "name": "Fornite",
+    "image": "fornite.png",
+    "category": "TPS",
+    "description": "Fortnite est un jeu en ligne développé par Epic Games sous la forme de différents progiciels proposant différents modes de jeu qui partagent le même gameplay général et le même moteur de jeu.",
+    "price": 30
+  }
+  ,  {
+    "name": "Minecraft",
+    "image": "minecraft.png",
+    "category": "Aventure",
+    "description": "Minecraft est un jeu qui consiste à placer des blocs et à partir dans des aventures.",
+    "price": 20
+  }
+  ,  {
+    "name": "Among Us",
+    "image": "among.png",
+    "category": "Enigme",
+    "description": "Among Us est un jeu vidéo d'ambiance multijoueur en ligne développé et édité par le studio InnerSloth et sorti le 15 juin 2018. Le jeu se déroule dans un univers de science-fiction. Chaque joueur incarne un des membres de l'équipage d'un vaisseau spatial, chacun pouvant être soit un équipier, soit un imposteur",
+    "price": 4
+  }
+]
